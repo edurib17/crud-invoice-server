@@ -1,0 +1,1 @@
+package com.invoice.invoice.repository;import com.invoice.invoice.domain.Invoice;import org.springframework.data.jpa.repository.JpaRepository;import java.util.UUID;public interface InvoiceRepository extends JpaRepository<Invoice, UUID> {}
